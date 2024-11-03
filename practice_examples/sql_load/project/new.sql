@@ -1,0 +1,13 @@
+SELECT * FROM bike_buyers
+WHERE age IS NULL
+    or cars IS NULL
+    or children IS NULL
+    OR commute_distance IS NULL
+    or education IS NULL
+    or gender IS NULL
+    OR home_owner IS NULL
+    OR id IS NULL
+    OR income IS NULL
+    OR marital_status is NULL
+    or occupation is NULL
+    or purchased_bike is null
